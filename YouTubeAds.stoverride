@@ -19,7 +19,7 @@ http:
     - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-img
 
   script:
-    - match: ^https:\/\/youtubei\.googleapis\.com\youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?
       name: youtube_request
       type: request
       timeout: 30
