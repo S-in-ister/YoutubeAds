@@ -1,8 +1,19 @@
-#SUBSCRIBED https://raw.githubusercontent.com/S-in-ister/YoutubeAds/main/YouTubeAds.stoverride
 name: Youtube去廣告
 desc: 去除Youtube廣告（iOS >= 15）
 # author: Maasea
 # Credit: Choler、DivineEngine、app2smile
+# SUBSCRIBED https://raw.githubusercontent.com/S-in-ister/YoutubeAds/main/YouTubeAds.stoverride
+
+# > Feature
+# 刪除 瀑布流、影片、搜尋中出現的廣告和Shorts
+# 刪除 Shorts 內的影片廣告
+# 刪除 底部 上傳 按鈕
+# 增加 畫中畫（PIP）、背景播放（Beta）
+# 增加 自動翻譯（Thanks @VirgilClyne）
+
+# > Note
+# 該模塊已足夠全面，無需與其他規則混用，防止重寫規則被破壞
+# 不支持 Mock 的客戶端可以用 reject-200/reject-img 替代
 
 http:
   rewrite:
