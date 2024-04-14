@@ -2,7 +2,6 @@ name: Youtube去廣告
 desc: 去除Youtube廣告（iOS >= 15）
 # author: Maasea
 # Credit: Choler、DivineEngine、app2smile
-# SUBSCRIBED https://raw.githubusercontent.com/S-in-ister/YoutubeAds/main/YouTubeAds.stoverride
 
 # > Feature
 # 刪除 瀑布流、影片、搜尋中出現的廣告和Shorts
