@@ -6,8 +6,8 @@
 #!system=ios
 
 [Script]
-[Kagi] 搜尋重導向 = type=http-request, pattern=^https:\/\/kagi\.com\/search\?q=.*, script-path=https://kinta.ma/surge/scripts/kagi_token.js, argument={{{https://kagi.com/search?token=jQCAvf0CXgc.4mtNa3DbLsS6PWsbclgSTrlFW3D5s2YnSS5SVRlVfKA}}}
-[Kagi] 搜尋自動完成 = type=http-response, pattern=^https://ac\.ecosia\.org\/autocomplete\?q=.*, requires-body=1, script-path=https://kinta.ma/surge/scripts/kagi_autocomplete.js, argument={{{https://kagi.com/search?token=jQCAvf0CXgc.4mtNa3DbLsS6PWsbclgSTrlFW3D5s2YnSS5SVRlVfKA}}}
+[Kagi] 搜尋重導向 = type=http-request, pattern=^https:\/\/kagi\.com\/search\?q=.*, script-path=https://kinta.ma/surge/scripts/kagi_token.js, argument=https://kagi.com/search?token=jQCAvf0CXgc.4mtNa3DbLsS6PWsbclgSTrlFW3D5s2YnSS5SVRlVfKA
+[Kagi] 搜尋自動完成 = type=http-response, pattern=^https://ac\.ecosia\.org\/autocomplete\?q=.*, requires-body=1, script-path=https://kinta.ma/surge/scripts/kagi_autocomplete.js, argument=https://kagi.com/search?token=jQCAvf0CXgc.4mtNa3DbLsS6PWsbclgSTrlFW3D5s2YnSS5SVRlVfKA
 
 [URL Rewrite]
 ^https:\/\/www\.ecosia\.org\/search https://kagi.com/search 307
